@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+
+
+.Footer{
+    position: relative;
+    top: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 50px;
+    font-family: "Comic Neue", cursive;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 3s ease-out , transform 3s ease-in;
+       
+}
+
+.Footer.fade-up{
+opacity: 1;
+transform: translateY(0);
+}
+.Footertext{
+    display: block
+}
+.Footertext p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Footerlink{
+    display:flex;
+    width: 1450px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Comic Neue", cursive;    
+}
+
+.Footernav{
+display: flex;
+justify-content: space-between;
+    
+}
+.Footerlogo{
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.Footernav button{
+    text-decoration: none;
+    padding: 20px;
+    background: none;
+    font-family: "Comic Neue", cursive;
+}
+.Footernav button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Footertextfixed{
+    color:#7f7f7f
+}

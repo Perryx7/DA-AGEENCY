@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.PROFILS.fade-up{
+    opacity: 1;
+    transform: translateY(0);
+    }
+.PROFILS{
+    z-index: 1;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.5s ease-out , transform 1.5s ease-in;
+    font-family: "Comic Neue" , cursive;
+}
+.Profils{
+    top: 300px;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: "Comic Neue" , cursive;
+    font-size: 45px;
+    text-align: center;
+}
+
+.ProfilsImg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.bloc1{
+align-content: center;
+align-items: center;
+display: flex;
+gap: 40px;
+justify-content: center;
+position: relative;
+width: 1400px;
+height: 536.52px;
+top: 500px;
+}
+img{
+    width: 715px;
+    height: 550px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: filter 1s ease;
+}
+img:hover{
+    filter: blur(10px);
+    cursor: pointer;
+}
+.ProfilsAbout{
+    position: relative;
+    top: 600px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.Abouttext{
+    font-family: "Comic Neue" , cursive;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 38px;
+}
+.ProfilsExperience{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 600px;
+    justify-content: space;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+
+
+.ExperienceContainer{
+
+display: flex;
+justify-content: space-between;
+width: 1000px;
+padding-top: 20px;
+position: relative;
+top: 95px;
+height: 100%;
+
+
+}
+button{ 
+    font-weight: bold;
+
+}
+
+.Bloc{
+
+position: relative;
+bottom: 80px;
+}
+
+.experiencetextfixed{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.blocc1{
+margin-top: 70px;
+}
+
+.img img{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    padding: 130px;
+    transition: none;
+    filter: none;
+
+}
+
+.ClientsContainer{
+display: flex;
+justify-content: center;
+position: relative;
+top: 700px;
+align-items: center;
+height: 1800px;
+align-content: center;
+}
+.ClientsNav{
+position: relative;
+top: 250px;
+}
+

@@ -1,0 +1,50 @@
+.nav-bar{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background:#ffffff ;
+    
+}
+
+.nav-bar-container{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 25px;
+gap: 10px;
+width: 280px;
+height: 10px;
+position: fixed;
+top: 35px;
+border-radius: 100px;
+backdrop-filter: blur(16px);
+background-color: rgba(232, 229, 228, 0.5);
+opacity: 1;
+z-index: 100;
+
+}
+
+
+.btn-fixed{
+  background-color: #ffffff;
+      opacity: 0.4;
+}
+
+
+button{
+  
+  text-align: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 100px;
+    font-weight: bold;
+    border: none;
+    cursor: grab;
+    
+    }
+
+    
+
+    
